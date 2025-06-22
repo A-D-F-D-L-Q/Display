@@ -1,0 +1,91 @@
+
+
+/* display property in css:-
+    display: none;
+
+    display: block;
+
+    display: inline;
+    *Elements are displayed on same line.
+    
+    dislay: inline-block;
+    *elements get displayed on same line
+    *it does not attain full width
+    *we can set width & height, margin, padding of the element 
+*/
+
+/* List property:-
+    *list-style-type:- to specify the type of list marker icon
+
+    values are:-
+    none, square, disc, circle, decimal, upper alpha, lower alpha,
+    upper-roman, lower-roman
+
+    *list-style-image:- to set an image as a list marker icon
+
+    like:- list-style-image: url("image.ext");
+
+*/
+
+.sub{
+    /* width: 40%;
+    margin: 10px; */
+    padding: 5px;
+    margin: 10px;
+    display: inline;
+    
+    
+}
+
+.sub li{
+        margin: 10px 20px;
+    padding: 10px 20px;
+    border-style: solid;
+    background-color: aqua;
+    display: inline;
+}
+
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.para1{
+    width:  50%;
+    height: 30%;
+    border-style: solid;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    display: block;
+}
+
+.para2{
+    width: 50%;
+    height: 30%;
+    border-style: solid;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    display: inline;
+}
+
+
+.para3{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    display: none;
+}
+
+
+.para4{
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    display: inline-block;
+}

@@ -1,0 +1,29 @@
+
+.sub1{
+    width: 50%;
+    margin: 5px 10px;
+    padding: 5px 20px;
+    background-color: #a4ca4c;
+    display: block;
+}
+
+.sub2 li{
+    margin: 5px 10px;
+    padding: 5px 20px;
+    background-color: #7c4cca;
+    display: inline;
+}
+
+.sub3 li{
+    margin: 5px 10px;
+    padding: 5px 20px;
+    background-color: #ca4cb5;
+    display: inline-block;
+    display: ;
+}
+
+.sub1 li{
+    /* list-style-type: disc; */
+    /* list-style-image: url(./download.jpg); */
+    
+}
